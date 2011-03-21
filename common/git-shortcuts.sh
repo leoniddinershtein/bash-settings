@@ -1,12 +1,13 @@
 # Git shortcuts
-alias gs='git status; git submodule status'
+alias gst='git status; git submodule status'
 alias ga='git add'
 # alias gc='git commit -m'    (See function below)
-alias gull='git pull'
-alias gush='git push'
+alias gl='git pull'
+alias gp='git push'
 alias gsh='git show'
-alias gl='git log'
+alias glg='git log'
 alias gb='git branch'
+alias gba='git branch -a'
 alias gco='git checkout'
 alias gd='git diff'
 alias gd1='echo "git diff HEAD";  git diff HEAD'
